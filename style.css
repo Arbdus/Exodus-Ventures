@@ -3,7 +3,7 @@ a{
     text-decoration: none;
 }
 
-#main h1{
+#index h1{
     text-align: center;
     line-height: 100px;
     height: 100px;
@@ -35,6 +35,9 @@ a{
     display: grid;
     grid-template-columns: 200px 1fr 200px;
     margin-top: 20px;
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 75px;
 }
 /*링크는 서로 달라질 수 있어서 묶지않음*/
 #link-left{
@@ -55,4 +58,7 @@ a{
     text-decoration-color: gray;
     margin: 15px;
     font-family: 'Rajdhani', sans-serif;
+    height: 75px;
+    position: relative;
+    transform: translateY(-100%);
 }
