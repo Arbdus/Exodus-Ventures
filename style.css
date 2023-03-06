@@ -51,6 +51,7 @@ a{
     border-left: 1px solid black;
     width: 160px;
     padding-left: 20px;
+    height: auto;
 }               
 #bottom{
     border-top: 1px solid black;
@@ -61,4 +62,13 @@ a{
     height: 75px;
     position: relative;
     transform: translateY(-100%);
+}
+#note-center h4{
+    display: grid;
+    border-bottom: 1px solid black;
+    margin-right: 40px;
+}
+
+#divResults {
+    font-size: 14px;
 }
