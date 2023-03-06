@@ -51,7 +51,7 @@ a{
     border-left: 1px solid black;
     width: 160px;
     padding-left: 20px;
-    height: auto;
+    height: 100%;
 }               
 #bottom{
     border-top: 1px solid black;
